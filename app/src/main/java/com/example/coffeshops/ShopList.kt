@@ -1,7 +1,7 @@
 package com.example.coffeshops
 
+import android.content.res.Resources
 import android.content.res.XmlResourceParser
-import android.util.Xml
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -13,13 +13,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.example.coffeshops.ui.theme.CoffeShop
-import org.xml.sax.helpers.XMLReaderAdapter
 
 
 @Composable
 fun AppInit() {
-
-
 
     LazyColumn(modifier = Modifier.fillMaxSize()) {
         item {CreateCoffeCards()}
@@ -28,22 +25,35 @@ fun AppInit() {
 
 @Composable
 fun CreateCoffeCards() {
-
-    Card(modifier = Modifier
+    /* for (shop in coffeshops) {
+         sacar datos de shop (nombre, direccion, imagen, comentarios)
+         crear Card que contenga y estructure esos datos,
+         añadir card a una lista de Cards para que el lazycolumn las coloque como items
+       } */
+    Card(
+        modifier = Modifier
         .fillMaxSize()
-        .padding(15.dp)) {
-        Image(painter = painterResource(id = R.drawable.images), contentDescription = "")
+        .padding(15.dp)
+    ) {
+        Image(painter = painterResource(id = R.drawable.images), contentDescription = "Greco")
 
         Text("Cafetería Nekkoffe")
     }
 }
 @Composable
-fun getCoffeShops(): ArrayList<CoffeShop>{
-    val shops = ArrayList<CoffeShop>()
-    var comments = ArrayList<String>()
+fun readAllCafeterias(resources: Resources): List<CoffeShop> {
+    val coffeShops = mutableListOf<CoffeShop>()
 
-    //val parser: XmlResourceParser
-    CoffeShop("Antico Caffe Greco", "St. Italy, Rome", R.drawable.images, comments)
+    val resourceId = resources.getIdentifier("coffeshops", "xml", "res.xml")
 
-    return shops
+    if (resourceId == 0) {
+        // El recurso XML no se encontró, maneja el error apropiadamente
+        return coffeShops
+    }
+
+    val parser: XmlResourceParser = resources.getXml(resourceId)
+
+    // Asegúrate de incluir el código para procesar el archivo XML y crear objetos CoffeShop.
+
+    return coffeShops
 }

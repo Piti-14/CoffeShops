@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/xml/CoffeShops.xml -->
+
+<coffeshops>
+    <coffeShop>
+        <name>Antico Caffè Greco</name>
+        <addr>St. Italy, Rome</addr>
+        <image>images</image>
+        <comments>
+            <comment>Excelente café y ambiente histórico.</comment>
+            <comment>Una joya de Roma.</comment>
+            <comment>Me encanta este lugar.</comment>
+            <comment>El mejor café en Roma.</comment>
+            <comment>Gran experiencia en cada visita.</comment>
+            <comment>Un lugar con mucha historia.</comment>
+            <comment>El espresso es magnífico.</comment>
+            <comment>Si visitas Roma, debes ir aquí.</comment>
+            <comment>Una experiencia única en Roma.</comment>
+            <comment>Altamente recomendado.</comment>
+        </comments>
+    </coffeShop>
+    <coffeShop>
+        <name>Coffe Room</name>
+        <addr>St Germany, Berlin</addr>
+        <image>images1</image>
+        <comments>
+            <comment>Gran lugar para relajarse y tomar café.</comment>
+            <comment>Personal amable y atento.</comment>
+            <comment>El café es delicioso.</comment>
+            <comment>Buena selección de pasteles.</comment>
+            <comment>Atmósfera acogedora y agradable.</comment>
+            <comment>El mejor café en Berlín.</comment>
+            <comment>Ambiente tranquilo y relajado.</comment>
+            <comment>Recomiendo probar el cappuccino.</comment>
+            <comment>Volvería una y otra vez.</comment>
+            <comment>Muy recomendado en Berlín.</comment>
+        </comments>
+    </coffeShop>
+    <coffeShop>
+        <name>Coffe Ibiza</name>
+        <addr>St. Colon, Madrid</addr>
+        <image>images2</image>
+        <comments>
+            <comment>Gran lugar para relajarse y tomar café.</comment>
+            <comment>Personal amable y atento.</comment>
+            <comment>El café es delicioso.</comment>
+            <comment>Buena selección de pasteles.</comment>
+            <comment>Atmósfera acogedora y agradable.</comment>
+            <comment>El mejor café en Berlín.</comment>
+            <comment>Ambiente tranquilo y relajado.</comment>
+            <comment>Recomiendo probar el cappuccino.</comment>
+            <comment>Volvería una y otra vez.</comment>
+            <comment>Altamente recomendado en Madrid.</comment>
+        </comments>
+    </coffeShop>
+    <coffeShop>
+        <name>Pudding Coffe Shop</name>
+        <addr>St. Diagonal, Barcelona</addr>
+        <image>images3</image>
+        <comments>
+            <comment>Un lugar encantador para tomar café.</comment>
+            <comment>El pastel de chocolate es asombroso.</comment>
+            <comment>Ambiente acogedor y relajante.</comment>
+            <comment>El personal es amigable y servicial.</comment>
+            <comment>El café es simplemente delicioso.</comment>
+            <comment>Excelente lugar para trabajar o estudiar.</comment>
+            <comment>Si te gustan los pasteles, este es tu lugar.</comment>
+            <comment>Recomiendo probar el café con leche.</comment>
+            <comment>Volveré pronto.</comment>
+            <comment>Una joya en Barcelona.</comment>
+        </comments>
+    </coffeShop>
+    <coffeShop>
+        <name>L' Express</name>
+        <addr>St. Picadilly Circus, London</addr>
+        <image>images4</image>
+        <comments>
+            <comment>Excelente ubicación en el corazón de Londres.</comment>
+            <comment>El café es fenomenal.</comment>
+            <comment>Personal amable y atento.</comment>
+            <comment>Un lugar encantador para relajarse.</comment>
+            <comment>Siempre una parada obligada en mis viajes a Londres.</comment>
+            <comment>Buenos precios y gran calidad.</comment>
+            <comment>La atmósfera es genial.</comment>
+            <comment>Volvería sin dudarlo.</comment>
+            <comment>Altamente recomendado en Londres.</comment>
+            <comment>Un lugar con mucha historia.</comment>
+        </comments>
+    </coffeShop>
+    <coffeShop>
+        <name>Coffe Corner</name>
+        <addr>St. Àngel Guimerà, València</addr>
+        <image>images5</image>
+        <comments>
+            <comment>Gran lugar para tomar café en València.</comment>
+            <comment>El café con leche es delicioso.</comment>
+            <comment>Ambiente acogedor y relajante.</comment>
+            <comment>Personal amable y atento.</comment>
+            <comment>Buena selección de bocadillos.</comment>
+            <comment>El mejor café en la zona.</comment>
+            <comment>Agradable para reuniones o estudiar.</comment>
+            <comment>Si estás en València, debes visitar este lugar.</comment>
+            <comment>Volveré sin dudarlo.</comment>
+            <comment>Altamente recomendado en València.</comment>
+        </comments>
+    </coffeShop>
+    <coffeShop>
+        <name>Sweet Cup</name>
+        <addr>St. Kinkerstraat, Amsterdam</addr>
+        <image>images6</image>
+        <comments>
+            <comment>Un rincón dulce y acogedor en Amsterdam.</comment>
+            <comment>Los pasteles son irresistibles.</comment>
+            <comment>El café es excelente.</comment>
+            <comment>Ambiente relajado y amigable.</comment>
+            <comment>El personal es atento y servicial.</comment>
+            <comment>Mi lugar favorito en Amsterdam.</comment>
+            <comment>Recomiendo el latte macchiato.</comment>
+            <comment>Volveré cada vez que esté en la ciudad.</comment>
+            <comment>Altamente recomendado en Amsterdam.</comment>
+            <comment>Si te gustan los dulces, este lugar es ideal.</comment>
+        </comments>
+    </coffeShop>
+    <!-- Agrega más cafeterías según sea necesario -->
+</coffeshops>
