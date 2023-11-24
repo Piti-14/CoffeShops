@@ -36,3 +36,12 @@ val Typography = Typography(
 )
 
 val appfont = FontFamily(Font(R.font.aliviaregular))
+
+val coffe = TextStyle(
+    fontFamily = appfont,
+    fontWeight = FontWeight.ExtraBold,
+    fontSize = 24.sp,
+    lineHeight = 24.sp,
+    letterSpacing = 0.5.sp
+)
+
